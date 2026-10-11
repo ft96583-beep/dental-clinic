@@ -87,7 +87,7 @@ export function Home({ onNavigate, onSelectService, onBookClick }: HomeProps) {
                 {/* Cutout Portrait Container */}
                 <div className="relative flex justify-center z-10">
                   <img 
-                    src="/images/hero-doctor.png" 
+                    src="/images/hero-doctor.webp" 
                     alt="Lead Dentist Cutout" 
                     className="w-full h-[380px] sm:h-[480px] object-cover object-top drop-shadow-2xl [mask-image:radial-gradient(ellipse_at_50%_30%,black_65%,transparent_95%)]"
                   />
@@ -177,12 +177,12 @@ export function Home({ onNavigate, onSelectService, onBookClick }: HomeProps) {
             <div className="lg:col-span-6 relative">
               <div className="grid grid-cols-2 gap-4">
                 <img 
-                  src="/images/service-general.jpg" 
+                  src="/images/service-general.webp" 
                   alt="Dental care 1" 
                   className="rounded-2xl shadow-lg h-56 sm:h-64 w-full object-cover"
                 />
                 <img 
-                  src="/images/service-whitening.jpg" 
+                  src="/images/service-whitening.webp" 
                   alt="Dental care 2" 
                   className="rounded-2xl shadow-lg h-56 sm:h-64 w-full object-cover sm:mt-8"
                 />
@@ -308,7 +308,7 @@ export function Home({ onNavigate, onSelectService, onBookClick }: HomeProps) {
               <div className="relative w-full max-w-sm">
                 <div className="absolute -inset-4 bg-blue-100 rounded-3xl blur-xl opacity-70"></div>
                 <img 
-                  src="/images/doctor-2.jpg" 
+                  src="/images/doctor-2.webp" 
                   alt="Dentist patient care" 
                   className="relative rounded-3xl shadow-2xl h-[380px] sm:h-[420px] w-full object-cover border-4 border-white"
                 />
@@ -635,7 +635,7 @@ export function Home({ onNavigate, onSelectService, onBookClick }: HomeProps) {
       <section id="video-section" className="py-20 bg-slate-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-40">
           <img 
-            src="/images/about-dental.jpg" 
+            src="/images/about-dental.webp" 
             alt="Background" 
             className="w-full h-full object-cover"
           />
@@ -731,7 +731,7 @@ export function Home({ onNavigate, onSelectService, onBookClick }: HomeProps) {
             <div className="relative h-72 sm:h-[420px] rounded-2xl overflow-hidden select-none">
               {/* After Image (Background) */}
               <img 
-                src="/images/case-1-after.jpg" 
+                src="/images/case-1-after.webp" 
                 alt="After Teeth Whitening" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -745,7 +745,7 @@ export function Home({ onNavigate, onSelectService, onBookClick }: HomeProps) {
                 style={{ width: `${sliderPosition}%` }}
               >
                 <img 
-                  src="/images/case-1-before.jpg" 
+                  src="/images/case-1-before.webp" 
                   alt="Before Teeth Whitening" 
                   className="absolute inset-0 w-full h-full object-cover max-w-none"
                   style={{ width: '100%', height: '100%' }}
