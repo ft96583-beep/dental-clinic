@@ -63,8 +63,8 @@ export const CASE_STUDIES: CaseStudyItem[] = [
     title: 'A Brighter Tomorrow: Sarah’s Whitening Journey',
     client: 'Sarah Jenkins',
     category: 'Teeth Whitening',
-    beforeImage: '/images/case-1-before.jpg',
-    afterImage: '/images/case-1-after.jpg',
+    beforeImage: '/images/case-1-before.webp',
+    afterImage: '/images/case-1-after.webp',
     description: 'Sarah came to us with severe coffee and tea staining that impacted her confidence during public speaking. After a single 60-minute laser whitening session and home care kit, her smile improved by 8 shades.',
     duration: '1 Session (60 mins)'
   },
@@ -73,8 +73,8 @@ export const CASE_STUDIES: CaseStudyItem[] = [
     title: 'A Beautiful Transformation: Olivia’s Braces Journey',
     client: 'Olivia Martinez',
     category: 'Braces & Alignment',
-    beforeImage: '/images/case-2-before.jpg',
-    afterImage: '/images/case-2-after.jpg',
+    beforeImage: '/images/case-2-before.webp',
+    afterImage: '/images/case-2-after.webp',
     description: 'Olivia suffered from crowded lower teeth and an overbite. Using our custom clear aligner therapy, her teeth were successfully aligned over 12 months with zero disruption to her college life.',
     duration: '12 Months'
   },
@@ -83,8 +83,8 @@ export const CASE_STUDIES: CaseStudyItem[] = [
     title: 'Restoring Confidence: David’s Full Implant Recovery',
     client: 'David Henderson',
     category: 'Dental Implants',
-    beforeImage: '/images/case-3-before.jpg',
-    afterImage: '/images/case-3-after.jpg',
+    beforeImage: '/images/case-3-before.webp',
+    afterImage: '/images/case-3-after.webp',
     description: 'After an accidental sports injury, David lost two front premolars. Our expert team placed precision titanium implants with custom porcelain crowns, fully restoring his natural chewing ability and radiant smile.',
     duration: '3 Months Recovery'
   }
@@ -99,7 +99,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: 'Oct 15, 2024',
     author: 'Dr. Olivia Hayes',
     category: 'Oral Care',
-    image: '/images/blog-1.jpg',
+    image: '/images/blog-1.webp',
     readTime: '4 min read'
   },
   {
@@ -110,7 +110,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: 'Oct 18, 2024',
     author: 'Dr. Emily Carter',
     category: 'Cosmetic',
-    image: '/images/blog-2.jpg',
+    image: '/images/blog-2.webp',
     readTime: '5 min read'
   },
   {
@@ -121,7 +121,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: 'Oct 22, 2024',
     author: 'Dr. James Walker',
     category: 'Surgery & Implants',
-    image: '/images/blog-3.jpg',
+    image: '/images/blog-3.webp',
     readTime: '6 min read'
   }
 ];
@@ -131,7 +131,7 @@ export const DOCTORS: Doctor[] = [
     id: 'dr-olivia-hayes',
     name: 'Dr. Olivia Hayes',
     role: 'Lead Orthodontist & Founder',
-    image: '/images/doctor-1.jpg',
+    image: '/images/doctor-1.webp',
     bio: 'Dr. Hayes has over 15 years of experience transforming smiles with advanced orthodontics and gentle patient care.',
     specialties: ['Orthodontics', 'Invisalign', 'Cosmetic Dentistry']
   },
@@ -139,7 +139,7 @@ export const DOCTORS: Doctor[] = [
     id: 'dr-emily-carter',
     name: 'Dr. Emily Carter',
     role: 'Cosmetic & Restorative Dentist',
-    image: '/images/doctor-2.jpg',
+    image: '/images/doctor-2.webp',
     bio: 'Passionate about aesthetic restorations, veneers, and teeth whitening, Dr. Carter ensures every patient leaves with sparkling confidence.',
     specialties: ['Teeth Whitening', 'Veneers', 'General Care']
   },
@@ -147,7 +147,7 @@ export const DOCTORS: Doctor[] = [
     id: 'dr-james-walker',
     name: 'Dr. James Walker',
     role: 'Implantologist & Oral Surgeon',
-    image: '/images/doctor-3.jpg',
+    image: '/images/doctor-3.webp',
     bio: 'Specializing in complex oral surgeries and dental implants, Dr. Walker uses state-of-the-art 3D imaging for painless procedures.',
     specialties: ['Dental Implants', 'Oral Surgery', 'Root Canals']
   }
@@ -160,7 +160,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'Marketing Executive',
     rating: 5,
     comment: 'Professional and Friendly! The clinic environment is immaculate and relaxing. My teeth whitening results exceeded all my expectations.',
-    image: '/images/testimonial-1.jpg'
+    image: '/images/testimonial-1.webp'
   },
   {
     id: '2',
@@ -168,7 +168,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'Software Engineer',
     rating: 5,
     comment: 'Highly Recommended! I had a root canal done by Dr. Walker and I felt absolutely zero pain. Exceptional staff and state-of-the-art facility.',
-    image: '/images/testimonial-2.jpg'
+    image: '/images/testimonial-2.webp'
   },
   {
     id: '3',
@@ -176,7 +176,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'Architect',
     rating: 5,
     comment: 'Booking an appointment online was so effortless. The dental implants look and feel completely natural. Truly world-class service!',
-    image: '/images/testimonial-3.jpg'
+    image: '/images/testimonial-3.webp'
   }
 ];
 
@@ -208,10 +208,10 @@ export const FAQS: FAQItem[] = [
 ];
 
 export const INSTAGRAM_PHOTOS = [
-  '/images/insta-1.jpg',
-  '/images/insta-2.jpg',
-  '/images/insta-3.jpg',
-  '/images/insta-4.jpg',
-  '/images/insta-5.jpg',
-  '/images/insta-6.jpg'
+  '/images/insta-1.webp',
+  '/images/insta-2.webp',
+  '/images/insta-3.webp',
+  '/images/insta-4.webp',
+  '/images/insta-5.webp',
+  '/images/insta-6.webp'
 ];
