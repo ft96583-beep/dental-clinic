@@ -89,6 +89,9 @@ export function Home({ onNavigate, onSelectService, onBookClick }: HomeProps) {
                   <img 
                     src="/images/hero-doctor.webp" 
                     alt="Lead Dentist Cutout" 
+                    loading="eager"
+                    fetchPriority="high"
+                    decoding="async"
                     className="w-full h-[380px] sm:h-[480px] object-cover object-top drop-shadow-2xl [mask-image:radial-gradient(ellipse_at_50%_30%,black_65%,transparent_95%)]"
                   />
                   
